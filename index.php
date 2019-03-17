@@ -1,4 +1,5 @@
 <?php
+    error_reporting(0);	
     spl_autoload_register(function ($class_name) {
         include $class_name . '.php';
     });
